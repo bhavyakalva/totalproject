@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<parameter name="vegName1" value="Tomato"></parameter>
+		<parameter name="vegName2" value="Potato"></parameter>
+		<classes>
+			<class name="sep25_TestNG_parameters.Testcases_dependson" />
+			<class name="sep25_TestNG_parameters.Testcases_parameters" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

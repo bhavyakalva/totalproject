@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="9" passed="6" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-26T18:36:50 IST" name="Suite" finished-at="2021-10-26T18:42:13 IST" duration-ms="322569">
+    <groups>
+    </groups>
+    <test started-at="2021-10-26T18:36:50 IST" name="Test" finished-at="2021-10-26T18:42:13 IST" duration-ms="322569">
+      <class name="sep29_Testcases.ContactUs">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:sep29_Testcases.ContactUs@12d4bf7e]" started-at="2021-10-26T18:39:00 IST" name="beforeclass" finished-at="2021-10-26T18:39:03 IST" duration-ms="2722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:sep29_Testcases.ContactUs@12d4bf7e]" started-at="2021-10-26T18:39:03 IST" name="beforemethod" finished-at="2021-10-26T18:39:38 IST" duration-ms="34765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="ContactUsTest001()[pri:0, instance:sep29_Testcases.ContactUs@12d4bf7e]" started-at="2021-10-26T18:39:38 IST" name="ContactUsTest001" finished-at="2021-10-26T18:39:54 IST" duration-ms="16517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactUsTest001 -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:sep29_Testcases.ContactUs@12d4bf7e]" started-at="2021-10-26T18:39:54 IST" name="aftermethod" finished-at="2021-10-26T18:40:01 IST" duration-ms="6806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:sep29_Testcases.ContactUs@12d4bf7e]" started-at="2021-10-26T18:40:01 IST" name="beforemethod" finished-at="2021-10-26T18:40:12 IST" duration-ms="11027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="ContactUsTest002()[pri:0, instance:sep29_Testcases.ContactUs@12d4bf7e]" started-at="2021-10-26T18:40:12 IST" name="ContactUsTest002" finished-at="2021-10-26T18:40:28 IST" duration-ms="15517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactUsTest002 -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:sep29_Testcases.ContactUs@12d4bf7e]" started-at="2021-10-26T18:40:28 IST" name="aftermethod" finished-at="2021-10-26T18:40:35 IST" duration-ms="7159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:sep29_Testcases.ContactUs@12d4bf7e]" started-at="2021-10-26T18:40:35 IST" name="beforemethod" finished-at="2021-10-26T18:40:47 IST" duration-ms="12710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="ContactUsTest003()[pri:0, instance:sep29_Testcases.ContactUs@12d4bf7e]" started-at="2021-10-26T18:40:47 IST" name="ContactUsTest003" finished-at="2021-10-26T18:40:59 IST" duration-ms="11541" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at sep29_Testcases.ContactUs.ContactUsTest003(ContactUs.java:53)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactUsTest003 -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:sep29_Testcases.ContactUs@12d4bf7e]" started-at="2021-10-26T18:40:59 IST" name="aftermethod" finished-at="2021-10-26T18:41:06 IST" duration-ms="7122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:sep29_Testcases.ContactUs@12d4bf7e]" started-at="2021-10-26T18:41:06 IST" name="beforemethod" finished-at="2021-10-26T18:41:18 IST" duration-ms="11555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="ContactUsTest004()[pri:0, instance:sep29_Testcases.ContactUs@12d4bf7e]" started-at="2021-10-26T18:41:18 IST" name="ContactUsTest004" finished-at="2021-10-26T18:41:32 IST" duration-ms="14022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactUsTest004 -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:sep29_Testcases.ContactUs@12d4bf7e]" started-at="2021-10-26T18:41:32 IST" name="aftermethod" finished-at="2021-10-26T18:41:38 IST" duration-ms="6325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:sep29_Testcases.ContactUs@12d4bf7e]" started-at="2021-10-26T18:41:38 IST" name="beforemethod" finished-at="2021-10-26T18:41:50 IST" duration-ms="11799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="ContactUsTest005()[pri:0, instance:sep29_Testcases.ContactUs@12d4bf7e]" started-at="2021-10-26T18:41:50 IST" name="ContactUsTest005" finished-at="2021-10-26T18:42:05 IST" duration-ms="15259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactUsTest005 -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:sep29_Testcases.ContactUs@12d4bf7e]" started-at="2021-10-26T18:42:05 IST" name="aftermethod" finished-at="2021-10-26T18:42:12 IST" duration-ms="6781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:sep29_Testcases.ContactUs@12d4bf7e]" started-at="2021-10-26T18:42:12 IST" name="afterclass" finished-at="2021-10-26T18:42:12 IST" duration-ms="444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- sep29_Testcases.ContactUs -->
+      <class name="sep29_Testcases.LoginTestcases">
+        <test-method is-config="true" signature="testbefore()[pri:0, instance:sep29_Testcases.LoginTestcases@3c72f59f]" started-at="2021-10-26T18:36:50 IST" name="testbefore" finished-at="2021-10-26T18:36:50 IST" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testbefore -->
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:sep29_Testcases.LoginTestcases@3c72f59f]" started-at="2021-10-26T18:36:50 IST" name="beforeclass" finished-at="2021-10-26T18:36:56 IST" duration-ms="5195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:sep29_Testcases.LoginTestcases@3c72f59f]" started-at="2021-10-26T18:36:56 IST" name="beforemethod" finished-at="2021-10-26T18:37:13 IST" duration-ms="17793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="Logintest001()[pri:0, instance:sep29_Testcases.LoginTestcases@3c72f59f]" started-at="2021-10-26T18:37:13 IST" name="Logintest001" finished-at="2021-10-26T18:37:41 IST" duration-ms="28072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logintest001 -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:sep29_Testcases.LoginTestcases@3c72f59f]" started-at="2021-10-26T18:37:41 IST" name="aftermethod" finished-at="2021-10-26T18:38:01 IST" duration-ms="19736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:sep29_Testcases.LoginTestcases@3c72f59f]" started-at="2021-10-26T18:38:01 IST" name="beforemethod" finished-at="2021-10-26T18:38:15 IST" duration-ms="13841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="Logintest002()[pri:0, instance:sep29_Testcases.LoginTestcases@3c72f59f]" started-at="2021-10-26T18:38:15 IST" name="Logintest002" finished-at="2021-10-26T18:38:43 IST" duration-ms="27774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logintest002 -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:sep29_Testcases.LoginTestcases@3c72f59f]" started-at="2021-10-26T18:38:43 IST" name="aftermethod" finished-at="2021-10-26T18:39:00 IST" duration-ms="17184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:sep29_Testcases.LoginTestcases@3c72f59f]" started-at="2021-10-26T18:39:00 IST" name="afterclass" finished-at="2021-10-26T18:39:00 IST" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method is-config="true" signature="testafter()[pri:0, instance:sep29_Testcases.LoginTestcases@3c72f59f]" started-at="2021-10-26T18:42:12 IST" name="testafter" finished-at="2021-10-26T18:42:12 IST" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testafter -->
+      </class> <!-- sep29_Testcases.LoginTestcases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

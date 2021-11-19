@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 323.695 s <<< FAILURE! - in TestSuite
+sep29_Testcases.ContactUs.ContactUsTest003  Time elapsed: 11.656 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at sep29_Testcases.ContactUs.ContactUsTest003(ContactUs.java:53)
+

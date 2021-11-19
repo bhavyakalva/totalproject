@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="17.024326">
+    <testcase classname="Authentication testcases" name="Logintestcase001" time="17.024326">
+        <system-out><![CDATA[Given open the browser and navigate to the application url..................passed
+When click on the SignIn....................................................passed
+Then verify the Authentication page is exist or not.........................passed
+When enter login details username "bhavyaak@gmail.com"  password "sony1234".passed
+]]></system-out>
+    </testcase>
+</testsuite>

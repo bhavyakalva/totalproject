@@ -1,0 +1,98 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-15T11:56:18.752Z",
+        "line": 4,
+        "name": "Logintestcase001",
+        "description": "",
+        "id": "authentication-testcases;logintestcase001",
+        "after": [
+          {
+            "result": {
+              "duration": 190135100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Contactuspage_impl.closebrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12531465200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open the browser and navigate to the application url",
+            "match": {
+              "location": "Authenticationpage_impl.open_the_browser_and_navigate_to_the_application_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2049812500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on the SignIn",
+            "match": {
+              "location": "Authenticationpage_impl.click_on_the_signin()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 57453500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify the Authentication page is exist or not",
+            "match": {
+              "location": "Authenticationpage_impl.verify_the_Authentication_page_is_exist_or_not()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2102525800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "enter login details username \"bhavyaak@gmail.com\"  password \"sony1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "bhavyaak@gmail.com",
+                  "offset": 30
+                },
+                {
+                  "val": "sony1234",
+                  "offset": 61
+                }
+              ],
+              "location": "Authenticationpage_impl.enter_login_details_username_something_password_something(String,String)"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "Authentication testcases",
+    "description": "",
+    "id": "authentication-testcases",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features_testcases/Authenticationpage_Testcases.feature",
+    "tags": []
+  }
+]
